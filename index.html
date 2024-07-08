@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATIBLE". content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header class="cabeca"> 
+        <img class="logo" src="imagens/Frame 6.png" alt="Alura Logo">
+        <a class="titulo">Codificador de textos</a>
+        <nav class="nav_links">
+            <a class="botao_instagit" href="https://www.instagram.com/icarokalott/" target="_blank">
+                <img class="imginstagit" src="imagens/instagram.svg" alt="Instagram"> Instagram
+            </a>
+            <a class="botao_instagit" href="https://github.com/IcaroKalott" target="_blank">
+                <img class="imginstagit" src="imagens/github.svg" alt="GitHub"> GitHub
+            </a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao_textos">       
+            <textarea id="mensagem" class="area_texto" placeholder="Digite seu texto"></textarea>   
+            <p class="texto_dica">Apenas letras minúsculas e sem acento</p>
+            <div class="botoes">
+                <button id="criptografar" class="botao_cripto">Criptografar</button>
+                <button id="descriptografar" class="botao_descripto">Descriptografar</button>
+                <button id="reset" class="botao_reset">Reiniciar</button>
+            </div>
+        </section>
+        <div class="imagem_container">
+            <img id="imagem_decoracao" class="imagem_decoracao" src="imagens/High quality products 1 1.png" alt="Imagem de decoração">
+            <p id="mensagem_nenhuma" class="texto_ocultar">Nenhuma mensagem encontrada</p>
+            <textarea id="resultado" class="mensagem texto_ocultar" cols="20" rows="11" placeholder="Nenhuma mensagem encontrada" readonly></textarea>
+            <button id="copiar" class="botao_copiar texto_ocultarbt">Copiar</button>
+            
+        </div>
+        
+    </main>
+    <footer class="rodape">Desenvolvido por Icaro Kalott</footer>
+    <script src="app.js"></script>
+</body>
+</html>
