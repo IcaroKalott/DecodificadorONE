@@ -8,8 +8,6 @@ Copiar: copie o texto criptografado ou descriptografado para a área de transfer
 Reinício: Limpe todos os campos com o botão "Reiniciar" para iniciar uma nova sessão.
 
 Como Usar
-Acesse o Site:
-
 
 Criptografar e Descriptografar:
 
